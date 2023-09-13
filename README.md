@@ -105,5 +105,5 @@ You're all set! To generate replies while chatting on WhatsApp:
 <p align="center">Developed by Aaron Davis💟</p>
 
 <p align="center">
-    <img src="footer.jpg">
+    <img src="footer.jpg" width="200>
 </p>
