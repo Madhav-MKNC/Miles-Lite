@@ -95,6 +95,11 @@ body::after {
     /* You can adjust this value depending on your content size */
 }
 
+#backup {
+    margin: 0 auto;
+    display: block;
+}
+
 button {
     margin-top: 0px;
     padding: 10px 20px;
