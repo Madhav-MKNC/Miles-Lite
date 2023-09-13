@@ -38,10 +38,10 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log(dict);
   });
 
-  document.getElementById('openApp').addEventListener('click', function () {
-    const url = chrome.runtime.getURL('build/index.html');
-    window.open(url, '_blank');
-  });
+  // document.getElementById('openApp').addEventListener('click', function () {
+  //   const url = chrome.runtime.getURL('build/index.html');
+  //   window.open(url, '_blank');
+  // });
 
 
   /* h3 */
@@ -64,49 +64,49 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
-  /* ... */
-  document.getElementById('setgoal').addEventListener('click', function () {
-    var goalInput = document.getElementById('myInput').value;
-    console.log('e1');
-    if (goalInput !== '') { //only if the goal is legit
-      if (dict && dict.conversation_data && dict.conversation_data[name]) { //if there is an entry already
-        console.log("milgaya");
-        dict.conversation_data[name][0] = goalInput; // Replace the 0th element
-        dict.conversation_data[name][2] = []; //reset the y values
-        document.getElementById('myInput').value = '';
-        document.getElementById('myInput').placeholder = goalInput;
-      }
-      localStorage.setItem(localkey, JSON.stringify(dict));
+  // /* ... */
+  // document.getElementById('setgoal').addEventListener('click', function () {
+  //   var goalInput = document.getElementById('myInput').value;
+  //   console.log('e1');
+  //   if (goalInput !== '') { //only if the goal is legit
+  //     if (dict && dict.conversation_data && dict.conversation_data[name]) { //if there is an entry already
+  //       console.log("milgaya");
+  //       dict.conversation_data[name][0] = goalInput; // Replace the 0th element
+  //       dict.conversation_data[name][2] = []; //reset the y values
+  //       document.getElementById('myInput').value = '';
+  //       document.getElementById('myInput').placeholder = goalInput;
+  //     }
+  //     localStorage.setItem(localkey, JSON.stringify(dict));
 
-      if (dict && dict.conversation_data && (!dict.conversation_data[name])) {
-        console.log("nahi mila mkc");
-        chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-          chrome.tabs.sendMessage(tabs[0].id, { getScraped: true }, function (response) {
+  //     if (dict && dict.conversation_data && (!dict.conversation_data[name])) {
+  //       console.log("nahi mila mkc");
+  //       chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+  //         chrome.tabs.sendMessage(tabs[0].id, { getScraped: true }, function (response) {
 
-            console.log(response);
-            const thisUser = response.thisUser;
-            const otherUserLabel = response.otherUserLabel;
-            const isGroup = response.isGroup;
-            const chats = response.chats;
-            dict.conversation_data[name] = [goalInput, chats, [], '']; // Replace the 0th element
-            dict.user_name = thisUser;
-            const updatedData = JSON.stringify(dict);
-            console.log("###########");
-            console.log(thisUser);
-            console.log(otherUserLabel);
-            console.log(isGroup);
-            console.log(chats);
-            console.log("###########");
-            document.getElementById('myInput').value = '';
-            document.getElementById('myInput').placeholder = goalInput;
+  //           console.log(response);
+  //           const thisUser = response.thisUser;
+  //           const otherUserLabel = response.otherUserLabel;
+  //           const isGroup = response.isGroup;
+  //           const chats = response.chats;
+  //           dict.conversation_data[name] = [goalInput, chats, [], '']; // Replace the 0th element
+  //           dict.user_name = thisUser;
+  //           const updatedData = JSON.stringify(dict);
+  //           console.log("###########");
+  //           console.log(thisUser);
+  //           console.log(otherUserLabel);
+  //           console.log(isGroup);
+  //           console.log(chats);
+  //           console.log("###########");
+  //           document.getElementById('myInput').value = '';
+  //           document.getElementById('myInput').placeholder = goalInput;
 
-            // Store it back into localStorage
-            localStorage.setItem(localkey, updatedData);
-          });
-        });
-      }
-    }
-  });
+  //           // Store it back into localStorage
+  //           localStorage.setItem(localkey, updatedData);
+  //         });
+  //       });
+  //     }
+  //   }
+  // });
 
 
   /* GENERATE REPLY */
