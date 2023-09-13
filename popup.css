@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+h2 {
+    transform: translateX(-10px);
+}
+
+body {
+    width: 270px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: poppins, sans-serif;
+    box-shadow: 0px 0px 32px 0 rgba(31, 38, 135, 0.67);
+    border-radius: 4px;
+    border: 3px solid rgba(73, 73, 92, 0.8);
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+}
+
+body::after {
+    content: '';
+    background-color: #1E1E26;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 4px;
+    z-index: -1;
+}
+
+/* Style for the container holding the toggle switch */
+.toggle-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the toggle switch */
+.toggle-switch {
+    width: 60px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #49495C;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Add inner shadow */
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    margin: 2.5px;
+    transition: left 0.2s ease-in-out;
+}
+
+.toggle-switch input:checked+.toggle-slider {
+    left: 30px;
+}
+
+.toggle-switch input {
+    display: none;
+}
+
+/* Style for the switch when it is checked */
+.toggle-switch input:checked~.toggle-slider {
+    background-color: rgb(214, 73, 107);
+    /* box-shadow: inset 0 0 2px rgba(162, 5, 44, 0.886); Add inner shadow */
+}
+
+/* Style for the body content */
+#bodyContent {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+}
+
+.show-content #bodyContent {
+    opacity: 1;
+    max-height: 500px;
+    /* You can adjust this value depending on your content size */
+}
+
+button {
+    margin-top: 0px;
+    padding: 10px 20px;
+    border: none;
+    background: #C5C5D3;
+    color: #1E1E26;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #D6496B;
+    color: #ffffff;
+}
+
+input {
+
+    margin-left: 3px;
+    color: #ffffff;
+    padding: 10px;
+    width: 60%;
+    background-color: #49495C;
+}
+
+h2,
+p {
+    color: #B6B0BE;
+    text-align: center;
+}
+
+#inputbar {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inputabar button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: #C5C5D3;
+    color: #1E1E26;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#inputbar button:hover {
+    background: #D6496B;
+    color: #ffffff;
+}
+
+img {
+    width: 12px;
+    height: 12px;
+}
+
+#openApp {
+    background-color: #1E1E26;
+}
+
+#openApp:hover {
+    background-color: #2e2e32;
+}
+
+#bottomG {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #B6B0BE;
+}
