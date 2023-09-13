@@ -107,5 +107,5 @@ Get multiple replies generated on multiple clicks and click the one you like.
 <p align="center">Developed by Aaron Davis💟</p>
 
 <p align="center">
-    <img src="footer.jpg" width="300">
+    <img src="footer.jpg" width="200>
 </p>
