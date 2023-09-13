@@ -27,14 +27,14 @@ git clone https://github.com/madhav-mknc/miles-lite.git
 ```
 
 <p align="center">
-    <img src="screenshots/cloning.png">
+    <img src="screenshots/cloning.png" width="700">
 </p>
 
 #### Downloading (recommended for non-developers):
 
 - Click the green "Code" button at the top of this page, then select "Download ZIP."
 
-<p align="center">
+<p align="center" width="700">
     <img src="screenshots/download.png">
 </p>
 
@@ -46,7 +46,7 @@ Miles is a Chrome extension, and you'll need to enable Developer Mode to use it:
 - In the URL bar, type `chrome://extensions` and press Enter.
 - In the top-right corner, toggle on "Developer mode."
 
-<p align="center">
+<p align="center" width="600">
     <img src="screenshots/extensions.png">
 </p>
 
@@ -58,7 +58,7 @@ Now, let's load Miles into Chrome:
 - Navigate to the directory where you cloned or extracted the Miles project files.
 - Select the folder containing the `manifest.json` file and click "Select Folder."
 
-<p align="center">
+<p align="center" width="600">
     <img src="screenshots/load.png">
 </p>
 
@@ -70,7 +70,7 @@ To easily access Miles, you can pin it to your Chrome toolbar:
 - Right-click on the Miles icon.
 - Select "Pin."
 
-<p align="center">
+<p align="center" width="500">
     <img src="screenshots/pin.png">
 </p>
 
@@ -86,17 +86,19 @@ You're all set! To generate replies while chatting on WhatsApp:
 
 <p>Miles will provide AI-driven responses that match your style and tone.</p>
 
-<p align="center">
+<p align="center" width="600">
     <img src="screenshots/demo1.png">
 </p>
 
-<p align="center">
-    Click on generated reply, the text will be coplied to your clipboard, you can now just paste the reply (CTRL + V)
+Click on generated reply, the text will be coplied to your clipboard, you can now just paste the reply (CTRL + V)
+
+<p align="center" width="600">
     <img src="screenshots/demo2.png">
 </p>
 
-<p align="center">
-    Get multiple replies generated on multiple clicks and click the one you like.
+Get multiple replies generated on multiple clicks and click the one you like.
+
+<p align="center" width="600">
     <img src="screenshots/demo3.png">
 </p>
 
