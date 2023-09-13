@@ -34,8 +34,8 @@ git clone https://github.com/madhav-mknc/miles-lite.git
 
 - Click the green "Code" button at the top of this page, then select "Download ZIP."
 
-<p align="center" width="700">
-    <img src="screenshots/download.png">
+<p align="center">
+    <img src="screenshots/download.png" width="700">
 </p>
 
 ### 2. Enable Developer Mode in Chrome
@@ -46,8 +46,8 @@ Miles is a Chrome extension, and you'll need to enable Developer Mode to use it:
 - In the URL bar, type `chrome://extensions` and press Enter.
 - In the top-right corner, toggle on "Developer mode."
 
-<p align="center" width="600">
-    <img src="screenshots/extensions.png">
+<p align="center">
+    <img src="screenshots/extensions.png" width="700">
 </p>
 
 ### 3. Load the Extension
@@ -58,8 +58,8 @@ Now, let's load Miles into Chrome:
 - Navigate to the directory where you cloned or extracted the Miles project files.
 - Select the folder containing the `manifest.json` file and click "Select Folder."
 
-<p align="center" width="600">
-    <img src="screenshots/load.png">
+<p align="center">
+    <img src="screenshots/load.png" width="700">
 </p>
 
 ### 4. Pin the Extension
@@ -70,8 +70,8 @@ To easily access Miles, you can pin it to your Chrome toolbar:
 - Right-click on the Miles icon.
 - Select "Pin."
 
-<p align="center" width="500">
-    <img src="screenshots/pin.png">
+<p align="center">
+    <img src="screenshots/pin.png" width="400">
 </p>
 
 ### 5. Generating Replies
@@ -86,20 +86,20 @@ You're all set! To generate replies while chatting on WhatsApp:
 
 <p>Miles will provide AI-driven responses that match your style and tone.</p>
 
-<p align="center" width="600">
-    <img src="screenshots/demo1.png">
+<p align="center">
+    <img src="screenshots/demo1.png" width="700">
 </p>
 
 Click on generated reply, the text will be coplied to your clipboard, you can now just paste the reply (CTRL + V)
 
-<p align="center" width="600">
-    <img src="screenshots/demo2.png">
+<p align="center">
+    <img src="screenshots/demo2.png" width="700">
 </p>
 
 Get multiple replies generated on multiple clicks and click the one you like.
 
-<p align="center" width="600">
-    <img src="screenshots/demo3.png">
+<p align="center">
+    <img src="screenshots/demo3.png" width="700">
 </p>
 
 <h3 align="center">Happy chatting with Miles!</h3>
@@ -107,5 +107,5 @@ Get multiple replies generated on multiple clicks and click the one you like.
 <p align="center">Developed by Aaron Davis💟</p>
 
 <p align="center">
-    <img src="footer.jpg">
+    <img src="footer.jpg" width="300">
 </p>
