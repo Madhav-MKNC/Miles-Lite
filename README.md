@@ -1,4 +1,4 @@
-<h1 align="center">Miles AI: WhatsApp Reply Recommendation</h1>
+<h1 align="center">Miles AI: WhatsApp Reply Enhancement</h1>
 
 <p align="center">
     <img src="icon.png" alt="Miles Logo" width="200">
@@ -27,7 +27,7 @@ git clone https://github.com/madhav-mknc/miles-lite.git
 ```
 
 <p align="center">
-    <img src="screenshots/cloning.jpg">
+    <img src="screenshots/cloning.png">
 </p>
 
 #### Downloading (recommended for non-developers):
@@ -35,7 +35,7 @@ git clone https://github.com/madhav-mknc/miles-lite.git
 - Click the green "Code" button at the top of this page, then select "Download ZIP."
 
 <p align="center">
-    <img src="screenshots/download.jpg">
+    <img src="screenshots/download.png">
 </p>
 
 ### 2. Enable Developer Mode in Chrome
@@ -47,7 +47,7 @@ Miles is a Chrome extension, and you'll need to enable Developer Mode to use it:
 - In the top-right corner, toggle on "Developer mode."
 
 <p align="center">
-    <img src="screenshots/extensions.jpg">
+    <img src="screenshots/extensions.png">
 </p>
 
 ### 3. Load the Extension
@@ -59,7 +59,7 @@ Now, let's load Miles into Chrome:
 - Select the folder containing the `manifest.json` file and click "Select Folder."
 
 <p align="center">
-    <img src="screenshots/load.jpg">
+    <img src="screenshots/load.png">
 </p>
 
 ### 4. Pin the Extension
@@ -71,7 +71,7 @@ To easily access Miles, you can pin it to your Chrome toolbar:
 - Select "Pin."
 
 <p align="center">
-    <img src="screenshots/pin.jpg">
+    <img src="screenshots/pin.png">
 </p>
 
 ### 5. Generating Replies
@@ -81,15 +81,23 @@ You're all set! To generate replies while chatting on WhatsApp:
 - Open a WhatsApp chat.
 - Click on the Miles extension icon in your toolbar.
 - Click the "Generate" button.
+- A text will be generated, just click on the text it will copy it to the clipboard.
+- Paste the reply (CTRL + V)
 
 <p>Miles will provide AI-driven responses that match your style and tone.</p>
 
 <p align="center">
-    <img src="screenshots/demo1.jpg">
+    <img src="screenshots/demo1.png">
 </p>
 
 <p align="center">
-    <img src="screenshots/demo2.jpg">
+    Click on generated reply, the text will be coplied to your clipboard, you can now just paste the reply (CTRL + V)
+    <img src="screenshots/demo2.png">
+</p>
+
+<p align="center">
+    Get multiple replies generated on multiple clicks and click the one you like.
+    <img src="screenshots/demo3.png">
 </p>
 
 <h3 align="center">Happy chatting with Miles!</h3>
