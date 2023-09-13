@@ -90,16 +90,10 @@ You're all set! To generate replies while chatting on WhatsApp:
     <img src="screenshots/demo1.png" width="700">
 </p>
 
-Click on generated reply, the text will be coplied to your clipboard, you can now just paste the reply (CTRL + V)
-
-<p align="center">
-    <img src="screenshots/demo2.png" width="700">
-</p>
-
 Get multiple replies generated on multiple clicks and click the one you like.
 
 <p align="center">
-    <img src="screenshots/demo3.png" width="700">
+    <img src="screenshots/demo2.png" width="700">
 </p>
 
 <h3 align="center">Happy chatting with Miles!</h3>
