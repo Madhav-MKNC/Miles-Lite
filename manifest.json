@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "WhatsApp Message Sender",
+    "name": "Miles 1.3",
     "version": "1.0",
     "description": "Send WhatsApp messages to flask app",
     "action": {
