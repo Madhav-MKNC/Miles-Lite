@@ -23,7 +23,7 @@ You can either clone this repository or download it as a ZIP file. If you're new
 #### Cloning (recommended for developers):
 
 ```
-git clone https://github.com/madhav-mknc/miles-lite.git
+git clone https://github.com/aaron-davis-43/miles-lite.git
 ```
 
 <p align="center">

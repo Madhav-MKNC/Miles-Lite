@@ -57,7 +57,7 @@ function getUserName() {
 
 // refresh things
 async function refreshClick(data) {
-    const response = await fetch("https://miles.gamhcrew.repl.co/refresh", {
+    const response = await fetch("http://65.1.86.185:1234/refresh", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -71,8 +71,6 @@ async function refreshClick(data) {
 
 /* main */
 document.addEventListener('click', function () {
-    console.log('clicked');
-
     // Add a small delay to ensure that the DOM has been updated
     setTimeout(function () {
         const chatElements = document.querySelectorAll(".copyable-text");
@@ -141,7 +139,6 @@ document.addEventListener('click', function () {
             userID: userID,
             otherUserID: otherUserID
         })
-        console.log("refresh status:", status);
 
     }, 1000); // 1000ms delay, you can adjust this value as needed
 });
