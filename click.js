@@ -57,7 +57,7 @@ function getUserName() {
 
 // refresh things
 async function refreshClick(data) {
-    const response = await fetch("http://65.1.86.185:1234/refresh", {
+    const response = await fetch("https://miles.gamhcrew.repl.co/refresh", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
