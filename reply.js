@@ -105,7 +105,7 @@ function fetchMessages(sentgoal) {
 async function get_repy_from_server(data) {
     console.log("generating reply...");
 
-    const response = await fetch("http://65.1.86.185:1234/get_reply", {
+    const response = await fetch("https://65.1.86.185:1234/get_reply", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
