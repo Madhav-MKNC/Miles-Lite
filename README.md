@@ -23,7 +23,7 @@ You can either clone this repository or download it as a ZIP file. If you're new
 #### Cloning (recommended for developers):
 
 ```
-git clone https://github.com/aaron-davis-43/miles-lite.git
+git clone https://github.com/madhav-mknc/miles-lite.git
 ```
 
 <p align="center">
@@ -98,7 +98,7 @@ Get multiple replies generated on multiple clicks and click the one you like.
 
 <h3 align="center">Happy chatting with Miles!</h3>
 
-<p align="center">Developed by Aaron Davis💟</p>
+<p align="center">Developed by Madhav Kumar and Aaron Davis💟</p>
 
 <p align="center">
     <img src="footer.jpg" width="200">
