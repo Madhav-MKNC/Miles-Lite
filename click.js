@@ -57,7 +57,7 @@ function getUserName() {
 
 // refresh things
 async function refreshClick(data) {
-    const response = await fetch("https://miles.gamhcrew.repl.co/refresh", {
+    const response = await fetch("https://a26018af-2571-4e26-814a-d76d486b7bcf-00-38iqwn06wxrli.asia-a.replit.dev/refresh", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

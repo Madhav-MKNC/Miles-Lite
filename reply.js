@@ -105,7 +105,7 @@ function fetchMessages(sentgoal) {
 async function get_repy_from_server(data) {
     console.log("generating reply...");
 
-    const response = await fetch("https://miles.gamhcrew.repl.co/get_reply", {
+    const response = await fetch("https://a26018af-2571-4e26-814a-d76d486b7bcf-00-38iqwn06wxrli.asia-a.replit.dev/get_reply", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
