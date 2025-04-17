@@ -1,32 +1,58 @@
 {
     "manifest_version": 3,
-    "name": "Miles 1.3",
-    "version": "1.0",
-    "description": "Send WhatsApp messages to flask app",
+    "name": "Miles 3.0",
+    "version": "3.0",
+    "description": "Write better replies. take control of the conversations.",
     "action": {
-        "default_popup": "popup.html"
+        "default_icon": {
+            "128": "icon.png"
+        },
+        "default_title": "MILES"
     },
     "permissions": [
         "activeTab",
-        "storage"
+        "storage",
+        "tabs",
+        "scripting",
+        "clipboardWrite"
     ],
     "background": {
-        "service_worker": "background.js",
+        "service_worker": "src/background/background.js",
         "type": "module"
     },
     "icons": {
-        "256": "icon.png"
+        "1024": "icon.png",
+        "512": "icon.png",
+        "256": "icon.png",
+        "128": "icon.png",
+        "64": "icon.png",
+        "32": "icon.png",
+        "16": "icon.png"
     },
     "content_scripts": [
         {
-            "matches": [
-                "https://web.whatsapp.com/*"
-            ],
+            "matches": ["https://web.whatsapp.com/*"],
+            "css": ["src/content_scripts/content.css"],
             "js": [
-                "content.js",
-                "click.js",
-                "reply.js"
+                
+                
+                
+                
+                "src/content_scripts/content.js"
             ]
+        }
+    ],
+    "host_permissions": [
+        "http://localhost:80/*",
+        "http://localhost:1234/*",
+        "http://miles.madhav-mknc.me/*",
+        "https://miles.madhav-mknc.me/*",
+        "https://web.whatsapp.com/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["*", "src/app/*", "src/content_scripts/*", "src/background/*"],
+            "matches": ["https://web.whatsapp.com/*"]
         }
     ]
 }

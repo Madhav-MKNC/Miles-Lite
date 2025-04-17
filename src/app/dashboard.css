@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2b2934;
+}
+
+.App {
+    background-color: #1c1b25e6;
+    /* background: linear-gradient(to right, rgba(66, 60, 71, 0.434), rgba(39, 35, 57, 0.626)); */
+    overflow: hidden;
+    width: 100%;
+}
+
+.header {
+    font-size: 12px;
+    color: #d6496b;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    background-color: #1d1a285d;
+}
+
+.Dashboard {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.Sidebar {
+    align-items: center;
+    background: #1e1e26;
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    border-radius: 8px;
+    box-shadow: 0 0 6px hsla(0, 0%, 100%, .1);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 30%;
+    background-color: #1d1a285d;
+    overflow-y: auto;
+    max-height: 110vh;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.4) rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nameButton {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* display: flex; */
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 16px;
+    height: auto;
+    min-height: 50px;
+    max-height: 50px;
+    text-align: left;
+    background-color: #49495c;
+    color: #c5c5d3;
+    border-radius: 5px;
+    width: 100%;
+    transition: transform .2s, background-color .2s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nameButton:hover {
+    background-color: #d6496b;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.crossButton {
+    font-size: 30px;
+    color: #c5c5d3;
+    /* width: 20px; */
+    align-items: center;
+    justify-content: center;
+    background-color: #49495c;
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 64%);
+    border-radius: 5px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 16px;
+    height: auto;
+    min-height: 50px;
+    max-height: 50px;
+    transition: transform .2s, background-color .2s;
+}
+
+.crossButton:hover {
+    color: black;
+    background-color: #d8d8d8;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.MainContent {
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: #0b1cd815;
+    transition: background-color .3s;
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    width: 70%;
+}
+
+.MainContent .ActiveName {
+    color: #d6496b;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.GoalInput,
+.PreambleInput,
+.ImpressionInput {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.GoalInput input {
+    background-color: #e0d0ff0d;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    color: #d6d6d6;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.PreambleInput textarea,
+.ImpressionInput textarea {
+    background-color: #e0d0ff0d;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    color: #d6d6d6;
+    flex-grow: 1;
+    padding: 10px;
+    height: 200px;
+    font-size: 16px;
+}
+
+.GoalInput button,
+.Preamble button,
+.Impression button {
+    padding: 10px;
+    padding-inline: 35px;
+    border: none;
+    background: rgb(255, 238, 238);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: #1E1E26;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.GoalInput button:hover,
+.Preamble button:hover,
+.Impression button:hover {
+    background: #D6496B;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    width: 100%;
+}
+
+.Parameters {
+    color: #ececec;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.Preamble,
+.Impression {
+    margin-top: 30px;
+}
+
+.PersonaInput {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-inline: 20px;
+    /* height: auto; */
+}
+
+.PersonaInput input {
+    background-color: #e0d0ff0d;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    color: #d6d6d6;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.PersonaInput textarea {
+    color: white;
+    background-color: #282632e6;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px
+}
+
+.PersonaInput button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    background: #D6496B;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.PersonaInput button:hover {
+    color: #dadada;
+    background: #b43250;
+}
+
+.footer {
+    text-align: center;
+    color: rgb(191, 191, 191);
+}

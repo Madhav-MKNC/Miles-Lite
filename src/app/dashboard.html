@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="miles-logo.png" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" />
+        <title>MILES Dashboard</title>
+        <link href="dashboard.css" rel="stylesheet" />
+        
+        
+        <script src="dashboard.js"></script>
+        <!-- <script src="../js/dashboard/chart.js"></script> -->
+        <!-- <script src="../js/dashboard/graph.js"></script> -->
+    </head>
+
+    <body>
+        <div class="App">
+            <div class="header">
+                <h1>MILES Dashboard - Monitor your conversations</h1>
+                <div class="PersonaInput">
+                    <form>
+                        <!-- <input id="PersonaInput" type="text" placeholder="Your persona..." maxlength="500" /> -->
+                        <textarea id="PersonaInput" placeholder="Your persona..." maxlength="2000" rows="4" cols="30"></textarea>
+                        <button type="submit">Update Persona</button>
+                    </form>
+                </div>
+            </div>
+            <div class="Dashboard">
+                <div class="Sidebar"></div>
+                <div class="MainContent">
+                    <div class="ActiveName">Chat Name Here...</div>
+                    <div class="GoalInput">
+                        <form>
+                            <input id="goalInput" type="text" placeholder="Set a goal..." maxlength="250" />
+                            <button type="submit">Set Goal</button>
+                        </form>
+                    </div>
+                    <div class="Parameters Preamble">
+                        Preamble of the chat
+                        <!-- <div id="Preamble">Preamble Here...</div> -->
+                        <button>Update Preamble</button>
+                        <div class="PreambleInput">
+                            <textarea id="PreambleInput" placeholder="Your preamble..." maxlength="3000" rows="4" cols="30"></textarea>
+                        </div>
+                    </div>
+                    <div class="Parameters Impression">
+                        Impression in the chat
+                        <!-- <div id="Impression">Impression Here...</div> -->
+                        <button>Update Impression</button>
+                        <div class="ImpressionInput">
+                            <textarea id="ImpressionInput" placeholder="Your impression..." maxlength="3000" rows="4" cols="30"></textarea>
+                        </div>
+                    </div>
+                    <!-- <div class="Parameters Persona">
+                        Your global Persona (constant for all chats)
+                        <div id="Persona">
+                            Persona Here...
+                        </div>
+                    </div> -->
+                    <!-- <div class="GraphContent">
+                        <canvas id="myChart"></canvas>
+                    </div> -->
+                </div>
+            </div>
+            <h4 class="footer">A product of MILES.</h4>
+        </div>
+    </body>
+</html>
