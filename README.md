@@ -21,21 +21,21 @@ in a single click.
 
 ## 📍 Real Moments. Real Panic. Real Replies.
 
-**"Hey, I saw you staring at me during class. You're kinda cute."**
-Dang. She noticed.
-*Now what? Deny it? Own it? Make her smile?*
-You're one message away from winning her over—or ruining the vibe.
+- "Hey, I saw you staring at me during class. You're kinda cute." 
+    - Dang. She noticed.  
+        - *Now what? Deny it? Own it? Make her smile?*  
+            - You're one message away from winning her over—or ruining the vibe.
 
-**"Hey, what’s the status on the milestone? We need your input before we proceed."**
-Project? Milestone? You haven’t even opened the doc.
-*You’ve got 2 minutes to sound composed, confident, and not get exposed.*
-Time to fake it like a pro (without sounding fake).
+- "Hey, what’s the status on the milestone? We need your input before we proceed."  
+    - Project? Milestone? You haven’t even opened the doc.  
+        - *You’ve got 2 minutes to sound composed, confident, and not get exposed.*  
+            - Time to fake it like a pro (without sounding fake).
 
-**"Soo... you like me or what? 👀"**
-Oh. My. God. She dropped the bomb. 
-Now the whole tone of the convo hangs on your next line.
-Be funny? Be flirty? Be smooth?
-*Say the wrong thing—game over. Say the right thing—hello late-night calls.*
+- "Soo... you like me or what? 👀"  
+    - Oh. My. God. She dropped the bomb.  
+        - Now the whole tone of the convo hangs on your next line.  
+            - Be funny? Be flirty? Be smooth?  
+                - *Say the wrong thing—game over. Say the right thing—hello late-night calls.*
 
 <p align="center">
     <img src="screenshots/ss6.png" width="700">
