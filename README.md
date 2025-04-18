@@ -46,7 +46,7 @@ in a single click.
 
 ## Get Started
 
-(chrome extension link)[]
+[install-chrome-extension](https://chromewebstore.google.com/detail/miles-30/ciodjcegjlgnckijflniollnhjhicjje)
 
 ## What you get?
 
