@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "MILES",
-    "version": "3.2",
+    "name": "Miles 3.0",
+    "version": "3.0",
     "description": "Write better replies. take control of the conversations.",
     "action": {
         "default_icon": {
@@ -33,7 +33,13 @@
         {
             "matches": ["https://web.whatsapp.com/*"],
             "css": ["src/content_scripts/content.css"],
-            "js": ["src/content_scripts/content.js"]
+            "js": [
+                
+                
+                
+                
+                "src/content_scripts/content.js"
+            ]
         }
     ],
     "host_permissions": [
@@ -45,12 +51,7 @@
     ],
     "web_accessible_resources": [
         {
-            "resources": [
-                "*",
-                "src/app/*",
-                "src/content_scripts/*",
-                "src/background/*"
-            ],
+            "resources": ["*", "src/app/*", "src/content_scripts/*", "src/background/*"],
             "matches": ["https://web.whatsapp.com/*"]
         }
     ]
